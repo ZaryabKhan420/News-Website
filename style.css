@@ -21,6 +21,10 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    background-color: #f3faff;
+}
+
 :root{
     --primary-text-color: #183b56;
     --secondary-text-color: #577592;
