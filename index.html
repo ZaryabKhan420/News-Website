@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <header id="header" class="flex container">
+
+        <div class="logo">
+            <img src="./Assets/logo.png" alt="Logo" class="image">
+        </div>
+
+        <nav class="navbar flex">
+            <ul class="navbar-list flex">
+                <li><a href="#" class="navbar-link ai">AI</a></li>
+                <li><a href="#" class="navbar-link finance">Finance</a></li>
+                <li><a href="#" class="navbar-link politics">Politics</a></li>
+            </ul>
+        </nav>
+
+        <form class="search-bar" onsubmit="enterPressed(); return false">
+            <input type="text" placeholder="e.g Science" class="search-input" value="">
+            <input class="search-btn" type="submit" value="Search">
+        </form>
+
+    </header>
+
+    <main id="main">
+
+        <div class="cards-container container">
+        </div>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
