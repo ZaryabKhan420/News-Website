@@ -232,5 +232,10 @@ ul{
     html{
         font-size: 50%;
     }
+}
 
+@media (max-width: 320px) {
+    .search-bar{
+        background-color: red;
+    }
 }
