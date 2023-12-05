@@ -50,7 +50,7 @@ const enterPressed = () =>{
 }
 
 
-initialLoad('all');
+window.addEventListener('load',initialLoad('all'));
 
 
 // Fetching data for AI
