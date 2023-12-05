@@ -34,6 +34,7 @@ const initialLoad = async (value) =>{
     }
 
 } 
+window.addEventListener('load',initialLoad('all'));
 
 
 // Clearing Data
@@ -49,8 +50,6 @@ const enterPressed = () =>{
     initialLoad(search);
 }
 
-
-window.addEventListener('load',initialLoad('all'));
 
 
 // Fetching data for AI
